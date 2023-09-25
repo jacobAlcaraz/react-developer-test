@@ -1,58 +1,70 @@
-# react-developer-test
-React.js Developer Test
+# Getting Started with Create React App
 
-Instructions:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Fork this repository.
-- This test is designed to assess the candidate's knowledge and skills in React.js.
-- The candidate should complete the tasks and answer the questions to the best of their ability.
-- The candidate must write clean and maintainable code.
-- Time Limit: 1 week.
-- When the candidate is done, candidate must PR their work to master.
+## Available Scripts
 
-Task 1: Setup and Basic Component
+In the project directory, you can run:
 
-- Create a new React application using Create React App or a similar tool.
-- Create a functional React component called Counter that displays a number and two buttons: "Increment" and "Decrement." The component should have the following features:
-  - The number should start at 0 and be displayed on the screen.
-  - Clicking the "Increment" button should increase the number by 1.
-  - Clicking the "Decrement" button should decrease the number by 1.
-- Display the Counter component in the root component of your application.
+### `npm start`
 
-Task 2: State Management
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Modify the Counter component to use React state to manage the number.
-- Create a new functional component called App that renders two instances of the Counter component. Each instance should have its own independent state.
-- Add a "Reset" button to each Counter component that resets its state to 0 when clicked.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Task 3: API Integration
+### `npm test`
 
-- Fetch and display data from a JSON API using the fetch API or a library like Axios.
-- Use https://dummyapi.io/docs with our app-id: 65080fec01538513690ca63e
-- Create a new functional component called UserList that fetches a list of users from an external JSON API (e.g., JSONPlaceholder) and displays them in a list.
-- Each user should be displayed with their name and email.
-- Handle loading and error states appropriately.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Task 4: Routing
+### `npm run build`
 
-- Implement routing in your application using React Router or a similar library.
-- Create two separate pages:
-  - Page 1: The page should display a list of users using the UserList component from Task 3.
-  - Page 2: Create a new page that displays a "Profile" component. The profile page should take a user's ID as a route parameter and display the user's details (name, email, etc.) fetched from the API.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Task 5: Component Composition and Props
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Create a reusable Button component that can be customized with different styles (e.g., primary, secondary, danger).
-- Use the Button component in your Counter and Profile components with different styles.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Task 6: Testing
+### `npm run eject`
 
-- Write unit tests for the Counter component using a testing library like Jest and React Testing Library.
-- Test the increment, decrement, and reset functionality.
-- Write unit tests for the UserList component, including testing the data loading and error handling.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Task 7: Bonus (Optional)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Implement Redux or a state management library of your choice to manage the global state of the application. Refactor your Counter component to use this global state.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
